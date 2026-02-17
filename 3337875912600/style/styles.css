@@ -1,5 +1,5 @@
 #es-rc #es-rc-content {
-  font-family: "Lato", sans-serif;
+  font-family: "Futura Demi", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.2;
@@ -9,6 +9,10 @@
   overflow: hidden;
   color: #000000;
   background-color: #FFFFFF;
+}
+
+#es-rc #es-rc-content ::selection {
+  background-color: #000000;
 }
 
 #es-rc #es-rc-content * {
@@ -35,7 +39,9 @@
   line-height: 1.6;
 }
 #es-rc #es-rc-content .es-kv__text-normal {
+  font-family: "Futura Book", sans-serif;
   font-weight: 400;
+  text-transform: none;
 }
 
 #es-rc #es-rc-content .es-kv__content-mobile {
@@ -171,6 +177,11 @@
 #es-rc #es-rc-content .es-formula__content--subtitle {
   font-size: 21px;
   margin: 0;
+}
+
+#es-rc #es-rc-content .es-formula__content--disclaimer {
+  text-transform: none;
+  font-family: "Futura Book", sans-serif;
 }
 
 #es-rc #es-rc-content .es-formula__content--link {
