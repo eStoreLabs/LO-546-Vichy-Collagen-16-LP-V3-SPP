@@ -239,9 +239,12 @@
   background-repeat: no-repeat;
   background-size: 0;
   background-position: bottom;
-  padding: 0 25px;
   margin-top: 20px;
   text-align: center;
+}
+
+#es-rc #es-rc-content .es-results__wrapper {
+  padding: 0 25px;
 }
 
 #es-rc #es-rc-content .es-results__img {
@@ -275,6 +278,47 @@
   font-size: 14px;
   text-wrap: balance;
   font-family: "Futura Book", sans-serif;
+}
+
+#es-rc #es-rc-content .es-specialist {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px;
+  background-position: right;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#es-rc #es-rc-content .es-specialist__headline {
+  font-family: "Futura Book", sans-serif;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+#es-rc #es-rc-content .es-specialist__text--big {
+  font-family: "Futura Demi", sans-serif;
+  font-size: 45px;
+  margin-block: 0;
+}
+
+#es-rc #es-rc-content .es-specialist__text--percent {
+  font-size: 99px;
+}
+
+#es-rc #es-rc-content .es-specialist__text {
+  font-family: "Futura Demi", sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+#es-rc #es-rc-content .es-specialist__text--accent {
+  font-family: "Futura Book", sans-serif;
+}
+
+#es-rc #es-rc-content .es-specialist__disclaimer {
+  font-size: 14px;
+  font-family: "Futura Book", sans-serif;
+  text-transform: initial;
 }
 
 @media screen and (min-width: 1200px) {
@@ -394,5 +438,16 @@
 
   #es-rc #es-rc-content .es-results__img {
     width: 40%;
+  }
+
+  #es-rc #es-rc-content .es-specialist {
+    background-position: 13%;
+  }
+
+  #es-rc #es-rc-content .es-specialist__wrapper {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    text-align: left;
   }
 }
