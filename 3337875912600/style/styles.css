@@ -8,7 +8,7 @@
   padding: 0;
   overflow: hidden;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #es-rc #es-rc-content ::selection {
@@ -25,6 +25,16 @@
   display: block;
 }
 
+#es-rc #es-rc-content sup {
+  vertical-align: top;
+  font-size: 0.6em;
+}
+
+#es-rc #es-rc-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #es-rc #es-rc-content .es-kv {
   color: #ffffff;
 }
@@ -33,15 +43,16 @@
 }
 
 #es-rc #es-rc-content .es-kv__text {
-  font-size: 24px;
+  font-family: "Futura Demi", sans-serif;
+  font-size: 45px;
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 1.6;
 }
 #es-rc #es-rc-content .es-kv__text-normal {
   font-family: "Futura Book", sans-serif;
   font-weight: 400;
   text-transform: none;
+  font-size: 16px;
 }
 
 #es-rc #es-rc-content .es-kv__content-mobile {
@@ -65,7 +76,8 @@
 }
 
 #es-rc #es-rc-content .es-cross__title {
-  font-size: 22px;
+  font-size: 30px;
+  font-family: "Futura Demi", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   margin-left: 0;
@@ -83,11 +95,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  max-width: 150px;
+  max-width: 180px;
 }
 
 #es-rc #es-rc-content .es-cross-mobile .es-cross__single {
-  height: 326px;
+  min-height: 350px;
 }
 
 #es-rc #es-rc-content .es-cross__single-img img {
@@ -98,27 +110,29 @@
   text-align: center;
   margin-top: 20px;
   font-weight: 700;
+  font-size: 20px;
+  font-family: "Futura Medium", sans-serif;
 }
 
-#es-rc #es-rc-content .es-cross__single-link p {
-  color: #FFFFFF;
+#es-rc #es-rc-content .es-cross__single-link {
+  color: #ffffff;
   background-color: #000000;
   padding: 8px 35px;
   border: 1px solid #000000;
   text-transform: uppercase;
-  border-radius: 20px;
-  font-size: 13px;
-}
-
-#es-rc #es-rc-content .es-cross__single-link a {
+  border-radius: 99px;
+  font-size: 20px;
   text-decoration: none;
+  font-family: "Futura Medium", sans-serif;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 #es-rc #es-rc-content .es-cross-mobile {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-block: 30px;
 }
 
 #es-rc #es-rc-content .es-cross__single {
@@ -128,12 +142,12 @@
 
 #es-rc #es-rc-content .es-swiper {
   width: 300px;
-  height: 350px;
+  padding-bottom: 30px;
 }
 
 #es-rc #es-rc-content .es-swiper-button-prev,
 #es-rc #es-rc-content .es-swiper-button-next {
-  color: #C62A1E;
+  color: #c62a1e;
   width: 40px;
 }
 
@@ -143,7 +157,7 @@
 }
 
 #es-rc #es-rc-content .swiper-pagination-bullet-active {
-  background: #C62A1E;
+  background: #c62a1e;
 }
 
 #es-rc #es-rc-content .es-formula {
@@ -155,7 +169,7 @@
 
 #es-rc #es-rc-content .es-formula__content {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -185,7 +199,7 @@
 }
 
 #es-rc #es-rc-content .es-formula__content--link {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
   padding: 5px 23px;
   border: 1px solid #000000;
@@ -253,9 +267,8 @@
 
   #es-rc #es-rc-content .es-kv__text {
     position: absolute;
-    bottom: 15%;
+    bottom: 0;
     left: 60px;
-
   }
 
   #es-rc #es-rc-content .es-cross {
@@ -287,8 +300,16 @@
     max-height: 200px;
   }
 
-  #es-rc #es-rc-content .es-cross__single:nth-child(2) .es-cross__single-img img,
-  #es-rc #es-rc-content .es-cross__single:nth-child(3) .es-cross__single-img img {
+  #es-rc
+    #es-rc-content
+    .es-cross__single:nth-child(2)
+    .es-cross__single-img
+    img,
+  #es-rc
+    #es-rc-content
+    .es-cross__single:nth-child(3)
+    .es-cross__single-img
+    img {
     max-height: 140px;
   }
 
@@ -360,5 +381,4 @@
   #es-rc #es-rc-content .es-results__img {
     display: none;
   }
-
 }

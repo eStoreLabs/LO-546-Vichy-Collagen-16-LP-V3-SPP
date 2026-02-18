@@ -1,13 +1,14 @@
-const swiper = new Swiper('.es-swiper', {
-  direction: 'horizontal',
+const swiper = new Swiper(".es-swiper", {
+  direction: "horizontal",
   loop: true,
+  autoHeight: true,
 
   pagination: {
-    el: '.es-swiper-pagination',
+    el: ".es-swiper-pagination",
   },
 
   navigation: {
-    nextEl: '.es-swiper-button-next',
-    prevEl: '.es-swiper-button-prev',
+    nextEl: ".es-swiper-button-next",
+    prevEl: ".es-swiper-button-prev",
   },
 });
