@@ -1,32 +1,30 @@
-<!DOCTYPE html>
-<html lang="pl">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vichy Collagen 16</title>
+
+
+
+
   <!-- Local font imports as imports are allowed only in HTML -->
   <style>
     @font-face {
       font-family: 'Futura Book';
-      src: url('./3337875912600/fonts/FuturaPTBook.woff2') format('woff2'),
-        url('./3337875912600/fonts/FuturaPTBook.woff') format('woff');
+      src: url('{{base_url}}vichy-colagen/fonts/FuturaPTBook.woff2') format('woff2'),
+        url('{{base_url}}vichy-colagen/fonts/FuturaPTBook.woff') format('woff');
       font-weight: 400;
       font-style: normal;
     }
 
     @font-face {
       font-family: 'Futura Medium';
-      src: url('./3337875912600/fonts/FuturaPTMedium.woff2') format('woff2'),
-        url('./3337875912600/fonts/FuturaPTMedium.woff') format('woff');
+      src: url('{{base_url}}vichy-colagen/fonts/FuturaPTMedium.woff2') format('woff2'),
+        url('{{base_url}}vichy-colagen/fonts/FuturaPTMedium.woff') format('woff');
       font-weight: 600;
       font-style: normal;
     }
 
     @font-face {
       font-family: 'Futura Demi';
-      src: url('./3337875912600/fonts/FuturaPTDemi.woff2') format('woff2'),
-        url('./3337875912600/fonts/FuturaPTDemi.woff') format('woff');
+      src: url('{{base_url}}vichy-colagen/fonts/FuturaPTDemi.woff2') format('woff2'),
+        url('{{base_url}}vichy-colagen/fonts/FuturaPTDemi.woff') format('woff');
       font-weight: 600;
       font-style: normal;
     }
@@ -44,22 +42,17 @@
       padding-bottom: 0
     }
   </style>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./3337875912600/style/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./3337875912600/style/styles.css">
-</head>
+  <link rel="stylesheet" href="{{base_url}}vichy-colagen/style/swiper-bundle.min.css">
+  <link rel="stylesheet" href="{{base_url}}vichy-colagen/style/styles.min.css">
 
-<body>
+
+
   <div id="es-rc">
     <div id="es-rc-content">
 
       <div class="es-kv">
         <div class="es-kv__content">
-          <img class="es-kv__img" src="./3337875912600/images/kv.jpg" alt="">
+          <img class="es-kv__img" src="{{base_url}}vichy-colagen/images/kv.jpg" alt="">
           <div class="es-kv__text">
             <p class="es-kv__text-bold">JUŻ 1 BUTELECZKA<br>
               BY WSPOMÓC<br>
@@ -67,16 +60,16 @@
             <p class="es-kv__text-normal"><sup>(1)</sup>Badanie kliniczne po 3 miesiacach stosowania, 2x dziennie.</p>
           </div>
         </div>
-        <div class="es-kv__content-mobile" style="background-image: url(./3337875912600/images/kv-background.png);">
-          <img class="es-kv__img-logo" src="./3337875912600/images/logo.png" alt="">
-          <img class="es-kv__img-packshot" src="./3337875912600/images/kv-packshot.png" alt="">
+        <div class="es-kv__content-mobile" style="background-image: url({{base_url}}vichy-colagen/images/kv-background.png);">
+          <img class="es-kv__img-logo" src="{{base_url}}vichy-colagen/images/logo.png" alt="">
+          <img class="es-kv__img-packshot" src="{{base_url}}vichy-colagen/images/kv-packshot.png" alt="">
           <div class="es-kv__text">
             <p class="es-kv__text-bold">JUŻ 1 BUTELECZKA<br>
               BY WSPOMÓC<br>
               ODBUDOWĘ KOLAGENU<sup>(1)</sup></p>
             <p class="es-kv__text-normal"><sup>(1)</sup>Badanie kliniczne po 3 miesiacach stosowania, 2x dziennie.</p>
           </div>
-          <img class="es-kv__img-person" src="./3337875912600/images/kv_person.png" alt="">
+          <img class="es-kv__img-person" src="{{base_url}}vichy-colagen/images/kv_person.png" alt="">
         </div>
       </div>
 
@@ -86,7 +79,7 @@
           <div class="es-cross__single">
             <div class="es-cross__single-img">
               <a href="https://www.superpharm.pl/vichy-collagen-specialist-16-serum-do-twarzy-205793"><img
-                  src="./3337875912600/images/packshot.png" alt=""></a>
+                  src="{{base_url}}vichy-colagen/images/packshot.png" alt=""></a>
             </div>
             <div class="es-cross__single-text">
               <p>Collagen Specialist 16<br>
@@ -101,7 +94,7 @@
           <div class="es-cross__single">
             <div class="es-cross__single-img">
               <a href="https://www.superpharm.pl/vichy-liftactiv-collagen-specialist-krem-na-dzien-134120"><img
-                  src="./3337875912600/images/day.png" alt=""></a>
+                  src="{{base_url}}vichy-colagen/images/day.png" alt=""></a>
             </div>
             <div class="es-cross__single-text">
               <p>Collagen Specialist 16<br>
@@ -116,7 +109,7 @@
           <div class="es-cross__single">
             <div class="es-cross__single-img">
               <a href="https://www.superpharm.pl/vichy-liftactiv-collagen-specialist-krem-na-noc-147356"><img
-                  src="./3337875912600/images/night.png" alt=""></a>
+                  src="{{base_url}}vichy-colagen/images/night.png" alt=""></a>
             </div>
             <div class="es-cross__single-text">
               <p>Collagen Specialist 16<br>
@@ -131,7 +124,7 @@
           <div class="es-cross__single">
             <div class="es-cross__single-img">
               <a href="https://www.superpharm.pl/vichy-liftactiv-collagen-specialist-krem-pod-oczy-191662"><img
-                  src="./3337875912600/images/eyes.png" alt=""></a>
+                  src="{{base_url}}vichy-colagen/images/eyes.png" alt=""></a>
             </div>
             <div class="es-cross__single-text">
               <p>Collagen Specialist 16<br>
@@ -153,7 +146,7 @@
               <div class="es-cross__single">
                 <div class="es-cross__single-img">
                   <a href="https://www.superpharm.pl/vichy-collagen-specialist-16-serum-do-twarzy-205793"><img
-                      src="./3337875912600/images/packshot.png" alt=""></a>
+                      src="{{base_url}}vichy-colagen/images/packshot.png" alt=""></a>
                 </div>
                 <div class="es-cross__single-text">
                   <p>Collagen Specialist 16<br>
@@ -170,7 +163,7 @@
               <div class="es-cross__single">
                 <div class="es-cross__single-img">
                   <a href="https://www.superpharm.pl/vichy-liftactiv-collagen-specialist-krem-na-dzien-134120"><img
-                      src="./3337875912600/images/day.png" alt=""></a>
+                      src="{{base_url}}vichy-colagen/images/day.png" alt=""></a>
                 </div>
                 <div class="es-cross__single-text">
                   <p>Collagen Specialist 16<br>
@@ -187,7 +180,7 @@
               <div class="es-cross__single">
                 <div class="es-cross__single-img">
                   <a href="https://www.superpharm.pl/vichy-liftactiv-collagen-specialist-krem-na-noc-147356"><img
-                      src="./3337875912600/images/night.png" alt=""></a>
+                      src="{{base_url}}vichy-colagen/images/night.png" alt=""></a>
                 </div>
                 <div class="es-cross__single-text">
                   <p>Collagen Specialist 16<br>
@@ -204,7 +197,7 @@
               <div class="es-cross__single">
                 <div class="es-cross__single-img">
                   <a href="https://www.superpharm.pl/vichy-liftactiv-collagen-specialist-krem-pod-oczy-191662"><img
-                      src="./3337875912600/images/eyes.png" alt=""></a>
+                      src="{{base_url}}vichy-colagen/images/eyes.png" alt=""></a>
                 </div>
                 <div class="es-cross__single-text">
                   <p>Collagen Specialist 16<br>
@@ -224,7 +217,7 @@
         </div>
       </div>
 
-      <div class="es-formula" style="background-image: url(./3337875912600/images/formula-image.png);">
+      <div class="es-formula" style="background-image: url({{base_url}}vichy-colagen/images/formula-image.png);">
         <div class="es-formula__content">
           <p class="es-formula__content--new">innowacja</p>
           <p class="es-formula__content--title">LIFTACTIV</p>
@@ -256,10 +249,10 @@
 
         </div>
 
-        <img class="es-results__img" src="./3337875912600/images/results-bg.png" alt="">
+        <img class="es-results__img" src="{{base_url}}vichy-colagen/images/results-bg.png" alt="">
       </div>
 
-      <div class="es-specialist" style="background-image: url(./3337875912600/images/specialist.jpg);">
+      <div class="es-specialist" style="background-image: url({{base_url}}vichy-colagen/images/specialist.jpg);">
         <div class="es-specialist__wrapper">
           <p class="es-specialist__headline">Farmaceuci przetestowali:</p>
           <div class="es-specialist__wrapper-text">
@@ -281,8 +274,6 @@
       </div>
     </div>
   </div>
-  <script src="./3337875912600/scripts/swiper-bundle.min.js"></script>
-  <script src="./3337875912600/scripts/script.js"></script>
-</body>
+  <script src="{{base_url}}vichy-colagen/scripts/swiper-bundle.min.js"></script>
+  <script src="{{base_url}}vichy-colagen/scripts/script.min.js"></script>
 
-</html>
