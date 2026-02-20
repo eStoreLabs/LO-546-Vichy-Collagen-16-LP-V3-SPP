@@ -34,6 +34,8 @@
 #es-rc #es-rc-content sup {
   vertical-align: top;
   font-size: 0.6em;
+  line-height: normal;
+  top: 0;
 }
 
 #es-rc #es-rc-content a {
